@@ -14,7 +14,7 @@ public class Main {
 
                 Customer c = new Customer(11, "Bob Hope");
                 String s = ToStringBuilder.reflectionToString(c);
-                System.out.println("it's working " + s);
+                System.out.println("it's working " + s); System.out.println("edited");
                 log.info(s);
         }
 
